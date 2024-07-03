@@ -19,7 +19,6 @@ class BatchServices {
 
 	public static function deleteUserFinished($success, array $results) {
 		$messenger = \Drupal::messenger();
-
 		if($success) {
 			$messenger->addMessage(t('@count users deleted.', ['@count' => count($results)]));
 		}

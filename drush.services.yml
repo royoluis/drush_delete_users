@@ -1,0 +1,6 @@
+services:
+  drush_delete_users.delete_users_by_role:
+    class: Drupal\drush_delete_users\Commands\DeleteUsersByRoleCommand
+    arguments: ['@entity_type.manager']
+    tags:
+      - { name: drush.command }

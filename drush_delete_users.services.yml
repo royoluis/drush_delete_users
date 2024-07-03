@@ -1,0 +1,4 @@
+services:
+  drush_delete_users.example:
+    class: Drupal\drush_delete_users\Example
+    arguments: ['@entity_type.manager']

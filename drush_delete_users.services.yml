@@ -1,4 +1,6 @@
 services:
-  drush_delete_users.example:
-    class: Drupal\drush_delete_users\Example
+  drush_delete_users.commands:
+    class: Drupal\drush_delete_users\Commands\DeleteUser
     arguments: ['@entity_type.manager']
+    tags:
+      - { name: drush.command }

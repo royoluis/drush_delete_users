@@ -1,7 +1,5 @@
-name: 'drush_delete_users'
+name: 'Drush Delete Users'
 type: module
-description: 'Custom drush command to delete users by role'
-package: Custom
+description: 'A custom module to delete users by role using Drush.'
 core_version_requirement: ^10
-dependencies:
-  - drush/drush
+package: Custom

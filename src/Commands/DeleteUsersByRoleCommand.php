@@ -82,15 +82,15 @@ class DeleteUsersByRoleCommand extends DrushCommands {
       $this->output()->writeln(sprintf('No users found with the role "%s"', $role));
     }
   
-		$batch = [
-			'title' => t('Comprobando @num items', ['@num' => $num_operations]),
-			'operations' => $operations,
-			'finished' => '\Drupal\drush_delete_users\BatchServices::deleteUserFinished',
-		];
-
-		batch_set($batch);
-		drush_backend_batch_process();
-		$this->output()->writeln("Process completed.");
+    $batch = [
+      'title' => t('Testing @num items', ['@num' => $num_operations]),
+      'operations' => $operations,
+      'finished' => '\Drupal\drush_delete_users\BatchServices::deleteUserFinished',
+    ];
+    
+    batch_set($batch);
+    drush_backend_batch_process();
+    $this->output()->writeln("Process completed.");
   }
 
 }

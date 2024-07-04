@@ -9,7 +9,6 @@ class BatchServices {
 
 	public static function deleteUsers($id, $user, &$context) {
 		$user->delete();
-
 		$context['results'][] = $user->id();
 		$context['message'] = t('Finishing batch @id from user @uid.', [
 			'@id' => $id,

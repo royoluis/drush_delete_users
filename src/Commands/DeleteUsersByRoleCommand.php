@@ -60,9 +60,9 @@ class DeleteUsersByRoleCommand extends DrushCommands {
     
     $query = $this->entityTypeManager->getStorage('user')->getQuery();
     $uids = $query->condition('status', 1)
-                 ->condition('roles', $role)
-                 ->accessCheck(FALSE)
-                 ->execute();
+              ->condition('roles', $role)
+              ->accessCheck(FALSE)
+              ->execute();
 
     if(!empty($uids)) {
       $users = $this->entityTypeManager->getStorage('user')->loadMultiple($uids);

@@ -1,6 +1,7 @@
 <h1>Module description and functionality</h1>
 <p>This module allows you to delete users by role from your Drupal website.</p>
-<p>You just have to install the module and run the following command: <b>drush_delete_users:delete-users-by-role [role_machine_name]</b></p>
+<p>You just have to install the module and run the following command:</p> 
+<p><b>drush_delete_users:delete-users-by-role [role_machine_name]</b></p>
 <h2>Example</h2>
 <p>Let's delete all users with the "Content Editor" role.</p>
 <p>In this case, our command will be: <b>drush_delete_users:delete-users-by-role content_editor</b></p>

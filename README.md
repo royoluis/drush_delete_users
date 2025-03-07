@@ -9,7 +9,7 @@
 
 ![image](https://github.com/user-attachments/assets/209b8082-8419-4c79-9afb-9a010a525827)
 
-<p>If there is no users with the requested role, the module will show you a message.</p>
+<p>If there are no users with the requested role, the module will show you a message.</p>
 
 ![image](https://github.com/user-attachments/assets/8f3d89fe-7e01-4c5e-9541-c9a8fb94972d)
 

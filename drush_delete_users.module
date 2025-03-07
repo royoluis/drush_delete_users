@@ -16,8 +16,8 @@ function drush_delete_users_help($route_name, RouteMatchInterface $route_match) 
       $output = '';
       $output .= '<h3>' . t('About') . '</h3>';
       $output .= '<p>' . t('This module allows you to delete users by role from your Drupal website.') . '</p>';
-			$output .= '<p>' . t('You just have to install the module and run the following command:') . '</p>';
-			$output .= '<p><b>' . t('drush_delete_users:delete-users-by-role [role_machine_name]') . '</b></p>';
+      $output .= '<p>' . t('You just have to run the following command:') . '</p>';
+      $output .= '<p><b>' . t('drush_delete_users:delete-users-by-role [role_machine_name]') . '</b></p>';
       return $output;
     default:
   }

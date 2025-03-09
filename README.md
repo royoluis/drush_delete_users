@@ -13,4 +13,7 @@
 
 ![image](https://github.com/user-attachments/assets/8f3d89fe-7e01-4c5e-9541-c9a8fb94972d)
 
-<p>Feel free to use and share this module.</p>
+<h2>Installation</h2>
+<p>Install as you would normally install a contributed Drupal module.</p>
+<p>See: https://www.drupal.org/node/895232 for further information.</p>
+<p>Feel free to share and use this custom module.</p>
